@@ -1,15 +1,29 @@
 <script>
 let { data } = $props();
 const member = data.member;
-console.log(member)
 import { Social } from '$lib'
-
+import cat from '$lib/assets/cat.svg';
 </script>
 
+<div class="member-image-wrapper">
+    <img class="profile-picture" src={`https://fdnd.directus.app/assets/${member.mugshot}`} width="300" height="200" alt={member.name} />
+</div>
 
-<Social icon="heart" url="#" name="Heart" />
-<Social icon="heart" url="#" name="Heart" />
+<section>
+    <h1>{member.name}</h1>
 
-<a href="/{member.id}">{member.name} - {member.id}</a>
+    <p>{member.bio}</p>
+</section>
+
+
+<div>
+<Social icon="github" url="#" name="github" />
+<Social icon="linkedin" url="#" name="linkedin" />
+
+<img src={cat} width="100" height="150" alt="cat">
+</div>
+
+<!-- <a href="/{member.id}">{member.name} - {member.id}</a> -->
+
 
 
