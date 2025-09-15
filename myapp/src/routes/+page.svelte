@@ -1,13 +1,15 @@
 <script>
 let { data } = $props();
-const members = data.members;
+const member = data.member;
+console.log(member)
+import { Social } from '$lib'
 
 </script>
 
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<Social icon="heart" url="#" name="Heart" />
+<Social icon="heart" url="#" name="Heart" />
 
-{#each members as member}
-<a href="/{members.id}">{member.name} - {member.id}</a>
-{/each}
+<a href="/{member.id}">{member.name} - {member.id}</a>
+
+
