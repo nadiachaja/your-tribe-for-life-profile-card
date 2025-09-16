@@ -12,7 +12,12 @@
 {@render children?.()}
 </main>
 
+<!-- Hier kan je zetten wat hetzelfde op alle pagina's moet -->
+<!-- Hier kan mijn header, nav, menu en footer -->
+ 
+
 <style>
 	/* styleguide */
-	
+
+
 </style>
