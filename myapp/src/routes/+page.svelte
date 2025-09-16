@@ -70,7 +70,11 @@
             max-width: fit-content;
     }
 
- 
+    @media (min-width: 1000px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: max-content max-content;   
+    }
 }
 
     section {
@@ -101,7 +105,10 @@
         align-items: center;
         padding: 0em 0em 0em 1.5em;
 
-    
+        @media (min-width: 1000px) {
+           grid-row: 2;
+           grid-column: 1;
+        }
     }
 
     .profile-picture {
@@ -111,6 +118,9 @@
         border-radius: var(--border-radius-m);
         padding: 1em;
 
+        @media (min-width: 1000px) {
+           padding: 0;
+        }
     }
 
     .profile-wrapper {
@@ -119,6 +129,11 @@
         position: relative;
         height: 320px;
 
+        @media (min-width: 1000px) {
+           grid-row: 2;
+           grid-column: 2;
+           justify-self: end;
+        }
     }
 
     .bg-cat {
