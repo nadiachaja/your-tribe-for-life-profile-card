@@ -17,14 +17,26 @@
 
 <style>
 	:root {
-		--primary-bg:#84a1bd;
-		--primary-text:#000000;
+		--primary-bg: #84a1bd;
+		--secondary-bg: #000000;
+		--primary-text: #000000;
 
-		--border-radius-m:10px;
-		--border-radius-mixed:10px 0px 0px 0px;
+		--border-radius-m: 30px;
+		--border-radius-mixed: 30px 0px 0px 0px;
 
-		--font-size-m: clamp(1.75rem, 1.5rem + 1.25vw, 3rem);
+		--font-size-m: clamp(2rem, 1.8rem + 1vw, 3rem);
 		--font-size-s: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 
+		--font-family: "Special Elite", system-ui;
+	}
+
+	main {
+		background-color: var(--primary-bg);
+		margin: 0;
+		display: grid;
+		place-items: center;
+		height: 100vh;
+
+		
 	}
 </style>

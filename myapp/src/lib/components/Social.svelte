@@ -6,9 +6,9 @@ import linkedin from '$lib/assets/logo-linkedin.svg'
 
 <a href="{url}">
     {#if icon === 'github'}
-    <img src={github} width="40" height="40" alt={name} />
+    <img class="github" src={github} width="45" height="45" alt={name} />
   {:else if icon === 'linkedin'}
-    <img src={linkedin} width="50" height="50" alt={name} />
+    <img class="linkedin" src={linkedin} width="60" height="60" alt={name} />
   {/if}
 </a>
 
