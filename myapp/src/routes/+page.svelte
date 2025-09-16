@@ -49,6 +49,7 @@
                 width="100"
                 height="150"
                 alt="cat"
+                fetchpriority="high"
             />
         </div>
     </div>

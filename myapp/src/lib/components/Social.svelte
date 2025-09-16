@@ -11,7 +11,3 @@ import linkedin from '$lib/assets/logo-linkedin.svg'
     <img class="linkedin" src={linkedin} width="60" height="60" alt={name} />
   {/if}
 </a>
-
-<style>
-
-</style>
