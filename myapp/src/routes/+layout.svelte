@@ -37,6 +37,13 @@
 		place-items: center;
 		height: 100vh;
 
-		
+		@media (min-width: 400px) {
+			background-color: var(--secondary-bg);
+			min-height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 2em;
+		}
 	}
 </style>

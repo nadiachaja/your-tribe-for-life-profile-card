@@ -64,7 +64,13 @@
         width: 100%;
         height: 100vh;
 
-   
+        @media (min-width: 400px) {
+            height: unset;
+            width: 80%;
+            max-width: fit-content;
+    }
+
+ 
 }
 
     section {
@@ -105,7 +111,6 @@
         border-radius: var(--border-radius-m);
         padding: 1em;
 
-      
     }
 
     .profile-wrapper {
@@ -114,7 +119,6 @@
         position: relative;
         height: 320px;
 
-      
     }
 
     .bg-cat {
