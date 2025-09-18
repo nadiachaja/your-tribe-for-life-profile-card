@@ -64,6 +64,7 @@
         max-width: 360px;
         width: 100%;
         height: 100vh;
+        animation: fadeIn 1s ease-out;
 
         @media (min-width: 400px) {
             height: unset;
@@ -76,6 +77,11 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: max-content max-content;   
     }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
 }
 
     section {
