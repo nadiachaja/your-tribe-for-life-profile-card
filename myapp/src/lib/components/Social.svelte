@@ -20,4 +20,8 @@ cursor: pointer;
 filter: grayscale(1) brightness(0) invert(1);
 }
 
+a:focus{
+    outline: 2px solid black;
+    outline-offset: .5em;
+}
 </style>
