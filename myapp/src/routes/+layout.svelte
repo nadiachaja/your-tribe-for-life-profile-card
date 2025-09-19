@@ -1,11 +1,11 @@
 <script>
-	import paw from "$lib/assets/paw.svg";
+	import flower from "$lib/assets/flower.svg";
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={paw} />
+	<link rel="icon" href={flower} />
 </svelte:head>
 
 <main>
